@@ -24,14 +24,13 @@ Our terraform is ready to apply.
 ### Step 4
 Ran the "terraform apply" command.
 
-Portal before apply command
+**Azure Portal before apply command**
 ![Alt text](sc/apBeforeApply.jpg "terraform apply b")
 
-Resources are created.
+**Azure Portal after apply command**
 ![Alt text](sc/apAfterApply.jpg "terraform apply a")
-Azure portal view
 
-Resource group view
+**Resource group view**
 ![Alt text](sc/scRG.jpg "rg")
 
 ### Step 4
