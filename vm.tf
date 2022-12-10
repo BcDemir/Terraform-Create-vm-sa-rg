@@ -1,17 +1,16 @@
 resource "azurerm_network_interface" "main" {
-  name                = "nic-${count.index}"
+  name                = "nic-1"
   location            = var.location
   resource_group_name = azurerm_resource_group.rg_dev_eus.name
 
   ip_configuration {
     name                          = "testconfiguration1"
-    subnet_id                     = azurerm_subnet.internal.id
     private_ip_address_allocation = "Dynamic"
   }
 }
 
 resource "azurerm_virtual_machine" "main" {
-  name                  = "vm-${count.index}"
+  name                  = "vm-1"
   location              = var.location
   resource_group_name   = azurerm_resource_group.rg_dev_eus.name
   network_interface_ids = [azurerm_network_interface.main.id]
