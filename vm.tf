@@ -9,7 +9,7 @@ resource "azurerm_network_interface" "main" {
   }
 }
 
-resource "azurerm_virtual_machine" "main" {
+resource "azurerm_virtual_machine" "vm_dev" {
   name                  = "vm-1"
   location              = var.location
   resource_group_name   = azurerm_resource_group.rg_dev_eus.name
