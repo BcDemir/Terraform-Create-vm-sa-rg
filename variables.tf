@@ -3,5 +3,5 @@ variable "location" {
 }
 
 variable "sa_name" {
-  default = "mytestenvsa-eus"
+  default = "mytestenvsa1eus"
 }
