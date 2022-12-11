@@ -15,7 +15,7 @@ Terraform initiated using terminal.
 ![Alt text](sc/terraformInit.jpg "terraform init")
 
 ### Step 3
-All tf files are ready to implement terraform apply command. Run command "terraform plan" to see if the provision will work. It return without error and plans to add 4 resources.
+All tf files are ready to implement terraform apply command. Ran command "terraform plan" to see if the provision will work. It return without errors.
 
 ![Alt text](sc/terraformApply.jpg "terraform plan")
 
@@ -36,4 +36,4 @@ Ran the "terraform apply" command.
 ### Step 4
 All resources are destroyed using "terraform destroy" command.
 
-![Alt text](sc/apAfterDestroy.jpg "destroy")
+You can find related tf files in this repository.
